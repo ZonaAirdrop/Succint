@@ -1,16 +1,6 @@
 
 # Verify Zero Knowledge Proofs with Succinct SP1
-
-<img src="https://app.ashbyhq.com/api/images/org-theme-wordmark/b045220d-46fa-4dd2-9364-ea30bc7bb174/81de4234-5c9f-40cf-8566-4324fd3a42f4.png" width="700"/>
-## About SP1
-
-For more about SP1, check [here](https://docs.succinct.xyz/introduction.html).
-
-
-<img src="https://docs.succinct.xyz/sp1.png" width="700"/>
-
-Note: The script only works on Ubuntu (20.04/22.04). 
-
+ 
 
 ## Step 1: System Updates and Installation of Required Tools
 
@@ -49,9 +39,6 @@ source ~/.bashrc
 sp1up
 ```
 
-![1](https://github.com/user-attachments/assets/394f0326-56a0-4b78-928d-da591125d72a)
-
-
 #### Check the version of the SP1 toolchain to make sure it is installed correctly:
 ```bash
 cargo +succinct --version
@@ -78,9 +65,8 @@ RUST_LOG=info cargo run --release -- --prove
 ```bash
 cargo prove --version
 ```
-![2](https://github.com/user-attachments/assets/c5a7d96a-779d-4669-b768-8f46906469ef)
 
-#Join Chanel
+**Join Chanel**
 
 https://t.me/ZonaAirdr0p
 
